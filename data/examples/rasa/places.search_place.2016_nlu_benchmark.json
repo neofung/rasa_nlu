@@ -1,0 +1,146 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Show me the cheapest cocktail bar near the hotel my sister stays in"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me a restaurant similar to the one I went to yesterday evening"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Show me the closest restaurants with all you can eat buffets"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me a 3 stars restaurant in Los Angeles"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "I want to eat some fried chicken. Any suggestions?"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "What's the closest pizza restaurant around here?"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Show me the top 5 French restaurants in Manhattan"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Where can I eat the best burger in Soho?"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Show me veggie restaurants nearby"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me a salad bar I can go to for my lunch meeting"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "What's the best irish pub in hell's kitchen?"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find a store near Sia's place where I can buy champagne"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Is there a place similar to Per Se in Williamsburg?"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find the top 3 family attractions in Hollywood not far from Angie's place"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find the best restaurants near my airbnb that serve brunch all day"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me a romantic restaurant that serves good expensive wine near my girlfriend's work"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Show me the best museums to visit near my London Airbnb"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me a brunch spot in Lower Manhattan"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me a coffee place similar to Starbucks that has gluten free food"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me the cheapest seafood restaurant near the Golden Bridge"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me a place that sells burritos in South Harlem"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "What are the fanciest clubs in New York?"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Where is the nearest Starbucks?"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me a good expensive japanese restaurant near work"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find a good fried chicken restaurant that is not a fast food"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me the closest theatre for tonight"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Show me the parks with swings and pony rides around my aunt's place"
+            },
+            {
+                "entities": [],
+                "intent": "places.search_place",
+                "text": "Find me the finest sushi restaurant in the area of my next meeting"
+            }
+        ]
+    }
+}

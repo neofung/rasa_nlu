@@ -118,34 +118,34 @@
       },
       {
         "text": "i'm looking for a place to eat",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": []
       },
       {
         "text": "I want to grab lunch",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": []
       },
       {
         "text": "I am searching for a dinner spot",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": []
       },
       {
         "text": "i'm looking for a place in the north of town",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 31,
             "end": 36,
             "value": "north",
-            "entity": "location"
+            "entity": "geography"
           }
         ]
       },
       {
         "text": "show me chinese restaurants",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 8,
@@ -157,7 +157,7 @@
       },
       {
         "text": "show me chines restaurants in the north",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 8,
@@ -169,19 +169,19 @@
             "start": 34,
             "end": 39,
             "value": "north",
-            "entity": "location"
+            "entity": "geography"
           }
         ]
       },
       {
         "text": "show me a mexican place in the centre", 
-        "intent": "restaurant_search", 
+        "intent": "places.search_place", 
         "entities": [
           {
             "start": 31, 
             "end": 37, 
             "value": "centre", 
-            "entity": "location"
+            "entity": "geography"
           }, 
           {
             "start": 10, 
@@ -193,7 +193,7 @@
       },
       {
         "text": "i am looking for an indian spot called olaolaolaolaolaola",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 20,
@@ -204,36 +204,36 @@
         ]
       },     {
         "text": "search for restaurants",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": []
       },
       {
         "text": "anywhere in the west",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 16,
             "end": 20,
             "value": "west",
-            "entity": "location"
+            "entity": "geography"
           }
         ]
       },
       {
         "text": "anywhere near 18328",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 14,
             "end": 19,
             "value": "18328",
-            "entity": "location"
+            "entity": "geography"
           }
         ]
       },
       {
         "text": "I am looking for asian fusion food",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 17,
@@ -245,19 +245,19 @@
       },
       {
         "text": "I am looking a restaurant in 29432",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 29,
             "end": 34,
             "value": "29432",
-            "entity": "location"
+            "entity": "geography"
           }
         ]
       },
       {
         "text": "I am looking for mexican indian fusion",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 17,
@@ -269,13 +269,13 @@
       },
       {
         "text": "central indian restaurant",
-        "intent": "restaurant_search",
+        "intent": "places.search_place",
         "entities": [
           {
             "start": 0,
             "end": 7,
             "value": "central",
-            "entity": "location"
+            "entity": "geography"
           },
           {
             "start": 8,
