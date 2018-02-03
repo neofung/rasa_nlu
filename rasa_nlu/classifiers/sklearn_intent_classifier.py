@@ -15,6 +15,7 @@ from typing import List
 from typing import Text
 from typing import Tuple
 
+from rasa_nlu.classifiers.utils import transform_labels_str2num, transform_labels_num2str
 from rasa_nlu.components import Component
 from rasa_nlu.config import RasaNLUConfig
 from rasa_nlu.model import Metadata
@@ -59,22 +60,6 @@ class SklearnIntentClassifier(Component):
         # type: () -> List[Text]
         return ["numpy", "sklearn"]
 
-    def transform_labels_str2num(self, labels):
-        # type: (List[Text]) -> np.ndarray
-        """Transforms a list of strings into numeric label representation.
-
-        :param labels: List of labels to convert to numeric representation"""
-
-        return self.le.fit_transform(labels)
-
-    def transform_labels_num2str(self, y):
-        # type: (np.ndarray) -> np.ndarray
-        """Transforms a list of strings into numeric label representation.
-
-        :param y: List of labels to convert to numeric representation"""
-
-        return self.le.inverse_transform(y)
-
     def train(self, training_data, config, **kwargs):
         # type: (TrainingData, RasaNLUConfig, **Any) -> None
         """Train the intent classifier on a data set.
@@ -90,19 +75,19 @@ class SklearnIntentClassifier(Component):
             logger.warn("Can not train an intent classifier. Need at least 2 different classes. " +
                         "Skipping training of intent classifier.")
         else:
-            y = self.transform_labels_str2num(labels)
+            y = transform_labels_str2num(self.le, labels)
             X = np.stack([example.get("text_features") for example in training_data.intent_examples])
 
             sklearn_config = config.get("intent_classifier_sklearn")
             C = sklearn_config.get("C", [1, 2, 5, 10, 20, 100])
-            kernel = sklearn_config.get("kernel", "linear")
+            kernel = sklearn_config.get("kernel", ["linear"])
             # dirty str fix because sklearn is expecting str not instance of basestr...
-            tuned_parameters = [{"C": C, "kernel": [str(kernel)]}]
+            tuned_parameters = [{"C": C, "kernel": kernel}]
             cv_splits = max(2, min(MAX_CV_FOLDS, np.min(np.bincount(y)) // 5))  # aim for 5 examples in each fold
 
             self.clf = GridSearchCV(SVC(C=1, probability=True, class_weight='balanced'),
                                     param_grid=tuned_parameters, n_jobs=config["num_threads"],
-                                    cv=cv_splits, scoring='f1_weighted', verbose=1)
+                                    cv=cv_splits, scoring='f1_weighted', verbose=2)
 
             self.clf.fit(X, y)
 
@@ -117,7 +102,7 @@ class SklearnIntentClassifier(Component):
         else:
             X = message.get("text_features").reshape(1, -1)
             intent_ids, probabilities = self.predict(X)
-            intents = self.transform_labels_num2str(intent_ids)
+            intents = transform_labels_num2str(self.le, intent_ids)
             # `predict` returns a matrix as it is supposed
             # to work for multiple examples as well, hence we need to flatten
             intents, probabilities = intents.flatten(), probabilities.flatten()
