@@ -45,5 +45,9 @@
   "intent_classifier_sklearn": {
     "C": [1, 2, 5, 10, 20, 100],
     "kernel": ["linear", "rbf"]
+  },
+
+  "intent_classifier_lightgbm": {
+    "save_intermediate": true
   }
 }

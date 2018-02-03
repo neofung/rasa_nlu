@@ -5,6 +5,8 @@ import os
 import lightgbm as lgb
 import numpy as np
 from future.utils import PY3
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 from rasa_nlu.classifiers.utils import transform_labels_str2num, transform_labels_num2str
@@ -18,6 +20,8 @@ INTENT_RANKING_LENGTH = 10
 class LightGBMIntentClassifier(Component):
     """Intent classifier using the lightgbm framework"""
 
+    __INTERMEDIATE_INPUT_PATH = os.path.dirname(os.path.abspath(__file__)) + '/tmp'
+
     name = "intent_classifier_lightgbm"
 
     provides = ["intent"]
@@ -25,7 +29,7 @@ class LightGBMIntentClassifier(Component):
     requires = ["text_features"]
 
     def __init__(self, clf=None, le=None):
-        # type: (lgb.LGBMClassifier, LabelEncoder)->None
+        # type: (lgb.Booster, LabelEncoder)->None
         self.clf = clf
 
         if le is not None:
@@ -43,17 +47,56 @@ class LightGBMIntentClassifier(Component):
         """Train the intent classifier on a data set.
         """
 
+        training_data, config, kwargs = self.save_and_load_intermediate_input(training_data, config, kwargs)
+
         labels = [e.get("intent") for e in training_data.intent_examples]
 
-        if len(set(labels)) < 2:
+        num_class = len(set(labels))
+        if num_class < 2:
             logger.warn("Can not train an intent classifier. Need at least 2 different classes. " +
                         "Skipping training of intent classifier.")
         else:
             y = transform_labels_str2num(self.le, labels)
             X = np.stack([example.get("text_features") for example in training_data.intent_examples])
+            X,eval_X,y,eval_y = train_test_split(X, y, test_size=0.25, shuffle=True)
+            lgb_train = lgb.Dataset(X, y)
+            lgb_eval = lgb.Dataset(eval_X, eval_y, reference=lgb_train)
 
-            self.clf = lgb.LGBMClassifier(n_estimators=20, num_leaves=63)
-            self.clf.fit(X, y,verbose=True)
+            # specify your configurations as a dict
+            params = {
+                'task': 'train',
+                'boosting_type': 'gbdt',
+                'application': 'multiclass',
+                'num_class': num_class,
+                'metric': 'rmse',
+                'verbose': 1,
+                # 'num_leaves': 3,
+                'learning_rate': 0.000001,
+                "min_data_in_leaf": 1,
+            }
+
+            self.clf = lgb.train(params,
+                                 lgb_train,
+                                 valid_sets=[lgb_eval],
+                                 num_boost_round=50)
+            y_pred = self.predict_prob(X)
+            y_pred = np.argmax(y_pred, axis=1)
+            logging.info('The rmse of prediction is: %f', mean_squared_error(y, y_pred) ** 0.5)
+
+    def save_and_load_intermediate_input(self, training_data, config, kwargs):
+        import cloudpickle
+        if training_data is None and config is None:
+            with io.open(LightGBMIntentClassifier.__INTERMEDIATE_INPUT_PATH, 'rb') as f:
+                training_data, config, kwargs = cloudpickle.load(f, encoding="latin-1")
+                logger.info('loaded intermediate input')
+                return training_data, config, kwargs
+
+        elif config.get('intent_classifier_lightgbm', None) \
+                and config.get('intent_classifier_lightgbm').get('save_intermediate', False):
+            with io.open(LightGBMIntentClassifier.__INTERMEDIATE_INPUT_PATH, 'wb') as f:
+                cloudpickle.dump((training_data, config, kwargs), f)
+                logger.info('saved intermediate input')
+                return training_data, config, kwargs
 
     def predict_prob(self, X):
         # type: (np.ndarray) -> np.ndarray
@@ -62,7 +105,7 @@ class LightGBMIntentClassifier(Component):
         :param X: bow of input text
         :return: vector of probabilities containing one entry for each label"""
 
-        return self.clf.predict_proba(X)
+        return self.clf.predict(X, num_iteration=self.clf.best_iteration)
 
     def predict(self, X):
         # type: (np.ndarray) -> Tuple[np.ndarray, np.ndarray]
@@ -129,7 +172,17 @@ class LightGBMIntentClassifier(Component):
         classifier_file = os.path.join(model_dir, "intent_classifier.pkl")
         with io.open(classifier_file, 'wb') as f:
             cloudpickle.dump(self, f)
+            logger.info('Save model in %s', classifier_file)
 
         return {
             "intent_classifier_lightgbm": "intent_classifier.pkl"
         }
+
+
+if __name__ == '__main__':
+    logging.basicConfig(format="[%(asctime)s] %(levelname)s [%(name)s.%(funcName)s:%(lineno)d] %(message)s",
+                        level=logging.DEBUG)
+    clf = LightGBMIntentClassifier()
+    clf.train(None, None)
+
+    pass
