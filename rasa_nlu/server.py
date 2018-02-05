@@ -23,6 +23,8 @@ from rasa_nlu.train import TrainingException
 from rasa_nlu.version import __version__
 from rasa_nlu.utils import json_to_string
 
+logging.basicConfig(format="[%(asctime)s] %(levelname)s [%(name)s.%(funcName)s:%(lineno)d] %(message)s",
+                    level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 

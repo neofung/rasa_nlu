@@ -19,6 +19,8 @@ from rasa_nlu.model import Trainer
 from rasa_nlu.config import RasaNLUConfig
 from rasa_nlu.training_data import load_data
 
+logging.basicConfig(format="[%(asctime)s] %(levelname)s [%(name)s.%(funcName)s:%(lineno)d] %(message)s",
+                    level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 if typing.TYPE_CHECKING:

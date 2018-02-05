@@ -67,7 +67,8 @@ def recursively_find_files(resource_name):
     elif os.path.isdir(resource_name):
         for root, directories, files in os.walk(resource_name):
             for f in files:
-                found.append(os.path.join(root, f))
+                if f != '.DS_Store':
+                    found.append(os.path.join(root, f))
     else:
         raise ValueError("Could not locate the resource '{}'."
                          "".format(os.path.abspath(resource_name)))
