@@ -6,7 +6,7 @@
     "intent_entity_featurizer_regex",
     "ner_crf",
     "ner_synonyms",
-    "intent_classifier_lightgbm"
+    "intent_classifier_fasttext"
   ],
   "path" : "../projects",
   "data" : "../data/examples/rasa/",

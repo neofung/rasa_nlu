@@ -17,6 +17,7 @@ from typing import Optional
 from typing import Text
 from typing import Type
 
+from rasa_nlu.classifiers.fasttext_intent_classifier import FastTextIntentClassifier
 from rasa_nlu.classifiers.keyword_intent_classifier import \
     KeywordIntentClassifier
 from rasa_nlu.classifiers.lightgbm_intent_classifier import LightGBMIntentClassifier
@@ -54,7 +55,7 @@ component_classes = [
     SpacyFeaturizer, MitieFeaturizer, NGramFeaturizer, RegexFeaturizer,
     MitieTokenizer, SpacyTokenizer, WhitespaceTokenizer,
     SklearnIntentClassifier, MitieIntentClassifier, KeywordIntentClassifier,
-    LightGBMIntentClassifier
+    LightGBMIntentClassifier, FastTextIntentClassifier
 ]
 
 # Mapping from a components name to its class to allow name based lookup.
