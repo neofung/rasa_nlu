@@ -10,9 +10,13 @@ from builtins import object
 from typing import Text
 
 import simplejson
+import os
 import six
 
 from rasa_nlu.utils import json_to_string
+
+# Describes where to search for the config file if no location is specified
+from typing import Text
 
 DEFAULT_CONFIG_LOCATION = "config.json"
 
@@ -51,7 +55,7 @@ DEFAULT_CONFIG = {
         "L2_c": 1e-3
     },
     "ner_spacy": {
-        "epochs": 10,
+        "epochs": 1,
         "batch_size": 10
     },
     "intent_classifier_sklearn": {
