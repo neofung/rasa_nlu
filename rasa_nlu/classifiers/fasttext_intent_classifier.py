@@ -117,10 +117,13 @@ class FastTextIntentClassifier(Component):
 
             if intents.size > 0 and probabilities.size > 0:
                 ranking = list(zip(list(intents), list(probabilities)))[:INTENT_RANKING_LENGTH]
-                intent = {"name": intents[0], "confidence": probabilities[0]}
-                intent_ranking = [{"name": intent_name, "confidence": score} for intent_name, score in ranking]
+                intent = {"name": intents[0], "confidence": probabilities[0],
+                          "classifier": FastTextIntentClassifier.name}
+                intent_ranking = [
+                    {"name": intent_name, "confidence": score, "classifier": FastTextIntentClassifier.name} for
+                    intent_name, score in ranking]
             else:
-                intent = {"name": None, "confidence": 0.0}
+                intent = {"name": None, "confidence": 0.0, "classifier": FastTextIntentClassifier.name}
                 intent_ranking = []
 
         message.set("intent", intent, add_to_output=True)
