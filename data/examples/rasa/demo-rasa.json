@@ -151,7 +151,7 @@
             "start": 8,
             "end": 15,
             "value": "chinese",
-            "entity": "cuisine"
+            "entity": "reservation.book_restaurant.cuisine"
           }
         ]
       },
@@ -163,7 +163,7 @@
             "start": 8,
             "end": 14,
             "value": "chinese",
-            "entity": "cuisine"
+            "entity": "reservation.book_restaurant.cuisine"
           },
           {
             "start": 34,
@@ -187,7 +187,7 @@
             "start": 10, 
             "end": 17, 
             "value": "mexican", 
-            "entity": "cuisine"
+            "entity": "reservation.book_restaurant.cuisine"
           }
         ]
       },
@@ -199,7 +199,7 @@
             "start": 20,
             "end": 26,
             "value": "indian",
-            "entity": "cuisine"
+            "entity": "reservation.book_restaurant.cuisine"
           }
         ]
       },     {
@@ -239,7 +239,7 @@
             "start": 17,
             "end": 29,
             "value": "asian fusion",
-            "entity": "cuisine"
+            "entity": "reservation.book_restaurant.cuisine"
           }
         ]
       },
@@ -263,7 +263,7 @@
             "start": 17,
             "end": 38,
             "value": "mexican indian fusion",
-            "entity": "cuisine"
+            "entity": "reservation.book_restaurant.cuisine"
           }
         ]
       },
@@ -281,7 +281,7 @@
             "start": 8,
             "end": 14,
             "value": "indian",
-            "entity": "cuisine"
+            "entity": "reservation.book_restaurant.cuisine"
           }
         ]
       },

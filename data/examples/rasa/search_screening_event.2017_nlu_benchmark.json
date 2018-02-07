@@ -35,7 +35,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 37,
             "value": "seven AM"
           }
@@ -113,7 +113,7 @@
           },
           {
             "end": 46,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 33,
             "value": "in 15 seconds"
           }
@@ -287,7 +287,7 @@
           },
           {
             "end": 52,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 27,
             "value": "twenty two hours from now"
           }
@@ -311,7 +311,7 @@
           },
           {
             "end": 46,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 40,
             "value": "dinner"
           }
@@ -347,7 +347,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 34,
             "value": "in 1 minute"
           }
@@ -479,7 +479,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 25,
             "value": "six hours from now"
           },
@@ -521,7 +521,7 @@
           },
           {
             "end": 72,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 67,
             "value": "lunch"
           }
@@ -899,7 +899,7 @@
           },
           {
             "end": 27,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 24,
             "value": "now"
           },
@@ -1067,7 +1067,7 @@
           },
           {
             "end": 31,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 29,
             "value": "13"
           }
@@ -1151,7 +1151,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 32,
             "value": "7 PM"
           }
@@ -1643,7 +1643,7 @@
           },
           {
             "end": 59,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 55,
             "value": "noon"
           }
@@ -1691,7 +1691,7 @@
           },
           {
             "end": 69,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "in eleven seconds"
           }
@@ -1931,7 +1931,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 31,
             "value": "in one minute"
           },
@@ -2111,7 +2111,7 @@
           },
           {
             "end": 99,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 62,
             "value": "fifteen hours and one minute from now"
           }
@@ -2225,7 +2225,7 @@
           },
           {
             "end": 42,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 33,
             "value": "zero P.M."
           }
@@ -2315,7 +2315,7 @@
         "entities": [
           {
             "end": 7,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 5,
             "value": "16"
           },
@@ -2345,7 +2345,7 @@
           },
           {
             "end": 57,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 45,
             "value": "four o'clock"
           }
@@ -2573,7 +2573,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 46,
             "value": "night"
           },
@@ -2717,7 +2717,7 @@
           },
           {
             "end": 90,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 79,
             "value": "in 1 minute"
           }
@@ -2897,7 +2897,7 @@
           },
           {
             "end": 54,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 51,
             "value": "now"
           }
@@ -3431,7 +3431,7 @@
           },
           {
             "end": 34,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 27,
             "value": "zero pm"
           }
@@ -3581,7 +3581,7 @@
           },
           {
             "end": 54,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 50,
             "value": "8 am"
           }
@@ -3641,7 +3641,7 @@
           },
           {
             "end": 66,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 53,
             "value": "in one second"
           }
@@ -3713,7 +3713,7 @@
           },
           {
             "end": 88,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 83,
             "value": "14:40"
           }
@@ -3875,7 +3875,7 @@
           },
           {
             "end": 60,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 51,
             "value": "twelve PM"
           }
@@ -3923,7 +3923,7 @@
           },
           {
             "end": 39,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 34,
             "value": "lunch"
           }
@@ -4055,7 +4055,7 @@
           },
           {
             "end": 68,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 48,
             "value": "three hours from now"
           },
@@ -4199,7 +4199,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 48,
             "value": "10:37 P.M."
           }
@@ -4343,7 +4343,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 0,
             "value": "11 seconds from now"
           },
@@ -4373,7 +4373,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 35,
             "value": "in fifteen hours"
           }
@@ -4397,7 +4397,7 @@
           },
           {
             "end": 77,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "fourteen o'clock"
           }
@@ -4445,7 +4445,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 23,
             "value": "in 22 seconds"
           },
@@ -4793,7 +4793,7 @@
           },
           {
             "end": 85,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 76,
             "value": "in 1 hour"
           }
@@ -4811,7 +4811,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 30,
             "value": "sunset"
           }
@@ -4859,7 +4859,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 51,
             "value": "zero am"
           }
@@ -4877,7 +4877,7 @@
           },
           {
             "end": 27,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 20,
             "value": "sunrise"
           }
@@ -4937,7 +4937,7 @@
           },
           {
             "end": 32,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 28,
             "value": "9 pm"
           },
@@ -5111,7 +5111,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 54,
             "value": "6 pm"
           }
@@ -5519,7 +5519,7 @@
           },
           {
             "end": 50,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "8 p.m."
           }
@@ -5579,7 +5579,7 @@
         "entities": [
           {
             "end": 13,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 5,
             "value": "seven AM"
           },
@@ -5633,7 +5633,7 @@
           },
           {
             "end": 82,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 68,
             "value": "in six minutes"
           }
@@ -5705,7 +5705,7 @@
           },
           {
             "end": 29,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "now"
           },
@@ -5777,7 +5777,7 @@
           },
           {
             "end": 97,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 86,
             "value": "04:08:11 AM"
           }
@@ -5885,7 +5885,7 @@
           },
           {
             "end": 41,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 24,
             "value": "one hour from now"
           },
@@ -5999,7 +5999,7 @@
           },
           {
             "end": 48,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 35,
             "value": "in one minute"
           }
@@ -6161,7 +6161,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 47,
             "value": "in 1 second"
           }
@@ -6239,7 +6239,7 @@
           },
           {
             "end": 50,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "supper"
           }
@@ -6293,7 +6293,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 32,
             "value": "5 am"
           },
@@ -6455,7 +6455,7 @@
           },
           {
             "end": 78,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "in eighteen hours"
           }
@@ -6485,7 +6485,7 @@
           },
           {
             "end": 38,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "four o'clock"
           },
@@ -6647,7 +6647,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 25,
             "value": "in 1 second"
           },
@@ -6905,7 +6905,7 @@
           },
           {
             "end": 53,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 38,
             "value": "in eleven hours"
           }
@@ -6923,7 +6923,7 @@
           },
           {
             "end": 28,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 20,
             "value": "two a.m."
           }
@@ -7013,7 +7013,7 @@
           },
           {
             "end": 57,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 51,
             "value": "ten PM"
           }
@@ -7079,7 +7079,7 @@
           },
           {
             "end": 28,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 21,
             "value": "12 A.M."
           },
@@ -7139,7 +7139,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 43,
             "value": "two p.m."
           }
@@ -7241,7 +7241,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 45,
             "value": "dinner"
           }
@@ -7367,7 +7367,7 @@
           },
           {
             "end": 59,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "10 A.M."
           }
@@ -7469,7 +7469,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 38,
             "value": "11 p.m."
           }
@@ -7541,7 +7541,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "in 1 minute"
           }
@@ -7571,7 +7571,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 40,
             "value": "6 PM"
           }
@@ -7859,7 +7859,7 @@
           },
           {
             "end": 25,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 22,
             "value": "now"
           }
@@ -7931,7 +7931,7 @@
           },
           {
             "end": 49,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 42,
             "value": "evening"
           },
@@ -8675,7 +8675,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 47,
             "value": "one o'clock"
           }
@@ -8747,7 +8747,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "ten"
           }
@@ -8771,7 +8771,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 45,
             "value": "dinner"
           }
@@ -9083,7 +9083,7 @@
           },
           {
             "end": 80,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 48,
             "value": "nine hours and 1 second from now"
           }
@@ -9287,7 +9287,7 @@
           },
           {
             "end": 62,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 43,
             "value": "five hours from now"
           },
@@ -9425,7 +9425,7 @@
           },
           {
             "end": 97,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 94,
             "value": "now"
           }
@@ -9473,7 +9473,7 @@
           },
           {
             "end": 56,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 48,
             "value": "08:56:29"
           }
@@ -9545,7 +9545,7 @@
           },
           {
             "end": 71,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 65,
             "value": "5 A.M."
           }
@@ -9587,7 +9587,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 50,
             "value": "seven o'clock"
           }
@@ -9599,7 +9599,7 @@
         "entities": [
           {
             "end": 29,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 16,
             "value": "in 12 seconds"
           },
@@ -9809,7 +9809,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 35,
             "value": "three p.m."
           }
@@ -9845,7 +9845,7 @@
           },
           {
             "end": 47,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 36,
             "value": "in one hour"
           }
@@ -10169,7 +10169,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "sunrise"
           }
@@ -10295,7 +10295,7 @@
           },
           {
             "end": 59,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 55,
             "value": "5 PM"
           }
@@ -10379,7 +10379,7 @@
           },
           {
             "end": 49,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 42,
             "value": "zero PM"
           }
@@ -10829,7 +10829,7 @@
           },
           {
             "end": 41,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 32,
             "value": "seventeen"
           }
@@ -10853,7 +10853,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 49,
             "value": "9 o'clock"
           }
@@ -10991,7 +10991,7 @@
           },
           {
             "end": 65,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 48,
             "value": "1 minute from now"
           }
@@ -11303,7 +11303,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 34,
             "value": "eleven A.M."
           },
@@ -11639,7 +11639,7 @@
           },
           {
             "end": 67,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 49,
             "value": "twenty one o'clock"
           }
@@ -11801,7 +11801,7 @@
           },
           {
             "end": 37,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 31,
             "value": "5 p.m."
           }
@@ -11831,7 +11831,7 @@
           },
           {
             "end": 75,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 62,
             "value": "in one minute"
           }
@@ -11855,7 +11855,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 53,
             "value": "in one hour"
           }
@@ -12551,7 +12551,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 31,
             "value": "night"
           },
@@ -12605,7 +12605,7 @@
         "entities": [
           {
             "end": 9,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 5,
             "value": "meal"
           },
@@ -12641,7 +12641,7 @@
           },
           {
             "end": 47,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 39,
             "value": "00:47:43"
           },
@@ -12917,7 +12917,7 @@
           },
           {
             "end": 60,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 56,
             "value": "meal"
           }
@@ -13001,7 +13001,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 28,
             "value": "in five minutes"
           },
@@ -13613,7 +13613,7 @@
           },
           {
             "end": 39,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 33,
             "value": "8 a.m."
           }
@@ -13739,7 +13739,7 @@
           },
           {
             "end": 75,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 62,
             "value": "in 15 minutes"
           }
@@ -14141,7 +14141,7 @@
           },
           {
             "end": 73,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 68,
             "value": "11:12"
           }
@@ -14375,7 +14375,7 @@
         "entities": [
           {
             "end": 13,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 7,
             "value": "brunch"
           },
@@ -14435,7 +14435,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 33,
             "value": "now"
           },
@@ -14477,7 +14477,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 33,
             "value": "now"
           },
@@ -14879,7 +14879,7 @@
           },
           {
             "end": 31,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 28,
             "value": "now"
           },
@@ -15011,7 +15011,7 @@
           },
           {
             "end": 49,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 37,
             "value": "four o'clock"
           },
@@ -15443,7 +15443,7 @@
           },
           {
             "end": 78,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "1 minute from now"
           }
@@ -15527,7 +15527,7 @@
           },
           {
             "end": 68,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 56,
             "value": "in 8 minutes"
           }
@@ -15695,7 +15695,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "4 A.M."
           }
@@ -15761,7 +15761,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 34,
             "value": "1 o'clock"
           },
@@ -15815,7 +15815,7 @@
           },
           {
             "end": 73,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 57,
             "value": "thirteen o'clock"
           }
@@ -15935,7 +15935,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "now"
           }
@@ -16295,7 +16295,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 56,
             "value": "09:44 am"
           }
@@ -16337,7 +16337,7 @@
           },
           {
             "end": 103,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 100,
             "value": "now"
           }
@@ -16367,7 +16367,7 @@
           },
           {
             "end": 62,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 59,
             "value": "now"
           }
@@ -16397,7 +16397,7 @@
         "entities": [
           {
             "end": 22,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 0,
             "value": "in 1 hour and 1 minute"
           },
@@ -16469,7 +16469,7 @@
           },
           {
             "end": 48,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "2 pm"
           }
@@ -16619,7 +16619,7 @@
           },
           {
             "end": 40,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 34,
             "value": "8 A.M."
           },
@@ -16763,7 +16763,7 @@
           },
           {
             "end": 49,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 30,
             "value": "in thirteen minutes"
           },
@@ -16907,7 +16907,7 @@
           },
           {
             "end": 56,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 31,
             "value": "nineteen minutes from now"
           }
@@ -16961,7 +16961,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 30,
             "value": "6 P.M."
           }
@@ -16985,7 +16985,7 @@
           },
           {
             "end": 59,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 42,
             "value": "in thirteen hours"
           }
@@ -17087,7 +17087,7 @@
           },
           {
             "end": 78,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 59,
             "value": "23 seconds from now"
           }
@@ -17297,7 +17297,7 @@
           },
           {
             "end": 82,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 78,
             "value": "noon"
           }
@@ -17351,7 +17351,7 @@
           },
           {
             "end": 78,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 67,
             "value": "in 1 minute"
           }
@@ -17561,7 +17561,7 @@
           },
           {
             "end": 52,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 31,
             "value": "four seconds from now"
           },
@@ -17885,7 +17885,7 @@
           },
           {
             "end": 50,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 48,
             "value": "11"
           }
@@ -17915,7 +17915,7 @@
           },
           {
             "end": 69,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 66,
             "value": "now"
           }
@@ -17951,7 +17951,7 @@
           },
           {
             "end": 24,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 21,
             "value": "now"
           },
@@ -18017,7 +18017,7 @@
           },
           {
             "end": 70,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 55,
             "value": "1 hour from now"
           }
@@ -18221,7 +18221,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 60,
             "value": "now"
           }
@@ -18605,7 +18605,7 @@
           },
           {
             "end": 87,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 76,
             "value": "04:34:15 PM"
           }
@@ -18809,7 +18809,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 37,
             "value": "Tonight"
           },
@@ -18935,7 +18935,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 50,
             "value": "12:26 AM"
           }
@@ -19073,7 +19073,7 @@
         "entities": [
           {
             "end": 9,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 5,
             "value": "Noon"
           },
@@ -19175,7 +19175,7 @@
         "entities": [
           {
             "end": 20,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 13,
             "value": "morning"
           },
@@ -19235,7 +19235,7 @@
           },
           {
             "end": 88,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 77,
             "value": "01:19:00 AM"
           }
@@ -19283,7 +19283,7 @@
           },
           {
             "end": 101,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 50,
             "value": "in six hours seventeen minutes and eighteen seconds"
           }
@@ -19307,7 +19307,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 47,
             "value": "one hour from now"
           }
@@ -19361,7 +19361,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 28,
             "value": "1 second from now"
           }
@@ -19439,7 +19439,7 @@
         "entities": [
           {
             "end": 68,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 17,
             "value": "23 hours twenty one minutes and one second from now"
           },
@@ -19835,7 +19835,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 54,
             "value": "elevenses"
           }
@@ -19883,7 +19883,7 @@
           },
           {
             "end": 52,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 49,
             "value": "now"
           }
@@ -19907,7 +19907,7 @@
           },
           {
             "end": 55,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 49,
             "value": "ten pm"
           }
@@ -19931,7 +19931,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 56,
             "value": "seven AM"
           },
@@ -20177,7 +20177,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 36,
             "value": "11 a.m."
           },
@@ -20447,7 +20447,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 36,
             "value": "11:09 PM"
           }
@@ -20531,7 +20531,7 @@
           },
           {
             "end": 57,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 51,
             "value": "sunset"
           }
@@ -20699,7 +20699,7 @@
           },
           {
             "end": 67,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 42,
             "value": "twenty one hours from now"
           }
@@ -20717,7 +20717,7 @@
           },
           {
             "end": 29,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "now"
           },
@@ -20969,7 +20969,7 @@
           },
           {
             "end": 50,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 47,
             "value": "now"
           }
@@ -21047,7 +21047,7 @@
           },
           {
             "end": 46,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 38,
             "value": "16:01:04"
           }
@@ -21245,7 +21245,7 @@
           },
           {
             "end": 59,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 42,
             "value": "1 second from now"
           }
@@ -21299,7 +21299,7 @@
           },
           {
             "end": 33,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "11 A.M."
           },
@@ -21545,7 +21545,7 @@
           },
           {
             "end": 74,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "three minutes from now"
           }
@@ -21911,7 +21911,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 37,
             "value": "08:39 pm"
           }
@@ -21983,7 +21983,7 @@
           },
           {
             "end": 91,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 72,
             "value": "in twenty one hours"
           }
@@ -22301,7 +22301,7 @@
           },
           {
             "end": 30,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "1 PM"
           },
@@ -22325,7 +22325,7 @@
           },
           {
             "end": 54,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 45,
             "value": "in 1 hour"
           }
@@ -22391,7 +22391,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 39,
             "value": "supper"
           }
@@ -22433,7 +22433,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "two pm"
           }
@@ -22499,7 +22499,7 @@
           },
           {
             "end": 34,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 23,
             "value": "in one hour"
           }
@@ -22613,7 +22613,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 27,
             "value": "twelve AM"
           }
@@ -22799,7 +22799,7 @@
           },
           {
             "end": 71,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 68,
             "value": "now"
           }
@@ -22817,7 +22817,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 40,
             "value": "now"
           }
@@ -22841,7 +22841,7 @@
           },
           {
             "end": 68,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 62,
             "value": "0 p.m."
           }
@@ -23099,7 +23099,7 @@
           },
           {
             "end": 94,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 69,
             "value": "in 1 minute and 8 seconds"
           }
@@ -23129,7 +23129,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 40,
             "value": "twelve A.M."
           },
@@ -23183,7 +23183,7 @@
           },
           {
             "end": 32,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 24,
             "value": "two a.m."
           },
@@ -23297,7 +23297,7 @@
           },
           {
             "end": 52,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 39,
             "value": "in one second"
           }
@@ -23321,7 +23321,7 @@
           },
           {
             "end": 49,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 46,
             "value": "now"
           }
@@ -23549,7 +23549,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 38,
             "value": "20:44"
           }
@@ -23831,7 +23831,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 41,
             "value": "now"
           }
@@ -23969,7 +23969,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 12,
             "value": "Morning"
           },
@@ -24017,7 +24017,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 45,
             "value": "twenty two o'clock"
           }
@@ -24053,7 +24053,7 @@
         "entities": [
           {
             "end": 11,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 0,
             "value": "in one hour"
           },
@@ -24125,7 +24125,7 @@
           },
           {
             "end": 75,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 71,
             "value": "6 am"
           }
@@ -24167,7 +24167,7 @@
           },
           {
             "end": 82,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 69,
             "value": "03:01:48 A.M."
           }
@@ -24185,7 +24185,7 @@
           },
           {
             "end": 52,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 29,
             "value": "twelve minutes from now"
           }
@@ -24233,7 +24233,7 @@
           },
           {
             "end": 26,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 22,
             "value": "meal"
           }
@@ -24251,7 +24251,7 @@
           },
           {
             "end": 48,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 42,
             "value": "7 A.M."
           },
@@ -24293,7 +24293,7 @@
           },
           {
             "end": 42,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 36,
             "value": "brunch"
           },
@@ -24587,7 +24587,7 @@
           },
           {
             "end": 46,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 43,
             "value": "now"
           }
@@ -24749,7 +24749,7 @@
           },
           {
             "end": 34,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 29,
             "value": "lunch"
           }
@@ -24947,7 +24947,7 @@
           },
           {
             "end": 26,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 21,
             "value": "06:30"
           },
@@ -25043,7 +25043,7 @@
           },
           {
             "end": 83,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 71,
             "value": "in 7 seconds"
           }
@@ -25217,7 +25217,7 @@
           },
           {
             "end": 49,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 34,
             "value": "1 hour from now"
           }
@@ -25235,7 +25235,7 @@
           },
           {
             "end": 21,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 18,
             "value": "now"
           }
@@ -25253,7 +25253,7 @@
           },
           {
             "end": 30,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 27,
             "value": "now"
           }
@@ -25319,7 +25319,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 36,
             "value": "9 o'clock"
           }
@@ -25355,7 +25355,7 @@
           },
           {
             "end": 67,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 62,
             "value": "15:02"
           }
@@ -25529,7 +25529,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "one second from now"
           },
@@ -25859,7 +25859,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 47,
             "value": "in 1 second"
           }
@@ -25877,7 +25877,7 @@
           },
           {
             "end": 48,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 41,
             "value": "morning"
           }
@@ -26021,7 +26021,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 59,
             "value": "2 am"
           }
@@ -26255,7 +26255,7 @@
           },
           {
             "end": 72,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 60,
             "value": "in 8 minutes"
           }
@@ -26381,7 +26381,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 12,
             "value": "7 A.M."
           },
@@ -26819,7 +26819,7 @@
           },
           {
             "end": 54,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 47,
             "value": "12 A.M."
           }
@@ -26879,7 +26879,7 @@
           },
           {
             "end": 65,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "2 AM"
           }
@@ -26903,7 +26903,7 @@
           },
           {
             "end": 65,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 53,
             "value": "in 2 minutes"
           }
@@ -27035,7 +27035,7 @@
           },
           {
             "end": 23,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 12,
             "value": "in 12 hours"
           },
@@ -27065,7 +27065,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 28,
             "value": "20:45:24"
           }
@@ -27089,7 +27089,7 @@
           },
           {
             "end": 54,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "07:25 P.M."
           }
@@ -27485,7 +27485,7 @@
           },
           {
             "end": 77,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 60,
             "value": "1 minute from now"
           }
@@ -27785,7 +27785,7 @@
           },
           {
             "end": 57,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 34,
             "value": "thirteen hours from now"
           }
@@ -27803,7 +27803,7 @@
           },
           {
             "end": 41,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 34,
             "value": "four AM"
           },
@@ -27971,7 +27971,7 @@
           },
           {
             "end": 76,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 65,
             "value": "07:31:32 pm"
           },
@@ -28049,7 +28049,7 @@
           },
           {
             "end": 53,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 40,
             "value": "10:56:18 a.m."
           },
@@ -28217,7 +28217,7 @@
           },
           {
             "end": 28,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 23,
             "value": "07:52"
           },
@@ -28307,7 +28307,7 @@
         "entities": [
           {
             "end": 10,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 7,
             "value": "tea"
           },
@@ -28493,7 +28493,7 @@
           },
           {
             "end": 71,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 63,
             "value": "eight pm"
           }
@@ -28523,7 +28523,7 @@
           },
           {
             "end": 68,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 57,
             "value": "in 1 minute"
           }
@@ -28781,7 +28781,7 @@
           },
           {
             "end": 87,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 70,
             "value": "1 second from now"
           }
@@ -28829,7 +28829,7 @@
           },
           {
             "end": 55,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 37,
             "value": "six hours from now"
           },
@@ -29579,7 +29579,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "12 hours from now"
           }
@@ -29627,7 +29627,7 @@
           },
           {
             "end": 62,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 53,
             "value": "eleven PM"
           }
@@ -29681,7 +29681,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 48,
             "value": "nineteen o'clock"
           }
@@ -29747,7 +29747,7 @@
           },
           {
             "end": 26,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 23,
             "value": "now"
           },
@@ -29807,7 +29807,7 @@
           },
           {
             "end": 70,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 66,
             "value": "Noon"
           }
@@ -29897,7 +29897,7 @@
           },
           {
             "end": 71,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "five hours from now"
           }
@@ -30071,7 +30071,7 @@
           },
           {
             "end": 69,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 58,
             "value": "eleven a.m."
           }
@@ -30149,7 +30149,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 60,
             "value": "now"
           }
@@ -30263,7 +30263,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 39,
             "value": "twenty two hours from now"
           }
@@ -30341,7 +30341,7 @@
           },
           {
             "end": 75,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 58,
             "value": "12 hours from now"
           }
@@ -30617,7 +30617,7 @@
           },
           {
             "end": 39,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "three o'clock"
           },
@@ -30671,7 +30671,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 41,
             "value": "now"
           },
@@ -30713,7 +30713,7 @@
           },
           {
             "end": 38,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 27,
             "value": "in one hour"
           },
@@ -30755,7 +30755,7 @@
           },
           {
             "end": 47,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "now"
           }
@@ -30965,7 +30965,7 @@
           },
           {
             "end": 67,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 58,
             "value": "zero a.m."
           }
@@ -31097,7 +31097,7 @@
           },
           {
             "end": 50,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 33,
             "value": "in thirteen hours"
           },
@@ -31223,7 +31223,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 28,
             "value": "12:53 AM"
           }
@@ -31367,7 +31367,7 @@
           },
           {
             "end": 33,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 23,
             "value": "07:27 A.M."
           },
@@ -31445,7 +31445,7 @@
           },
           {
             "end": 74,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 55,
             "value": "in nineteen seconds"
           }
@@ -31739,7 +31739,7 @@
           },
           {
             "end": 46,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "13"
           }
@@ -31925,7 +31925,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 25,
             "value": "in 23 hours"
           },
@@ -31997,7 +31997,7 @@
         "entities": [
           {
             "end": 26,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 18,
             "value": "15:16:52"
           },
@@ -32165,7 +32165,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 36,
             "value": "in twelve hours"
           }
@@ -32183,7 +32183,7 @@
           },
           {
             "end": 28,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 20,
             "value": "eighteen"
           },
@@ -32237,7 +32237,7 @@
           },
           {
             "end": 94,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 87,
             "value": "sunrise"
           }
@@ -32285,7 +32285,7 @@
           },
           {
             "end": 57,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "10 AM"
           }
@@ -32567,7 +32567,7 @@
           },
           {
             "end": 28,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 21,
             "value": "nine PM"
           }
@@ -32741,7 +32741,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 35,
             "value": "seven am"
           },
@@ -32909,7 +32909,7 @@
           },
           {
             "end": 49,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 43,
             "value": "dinner"
           }
@@ -32993,7 +32993,7 @@
           },
           {
             "end": 67,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 55,
             "value": "in 8 minutes"
           }
@@ -33287,7 +33287,7 @@
         "entities": [
           {
             "end": 17,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 10,
             "value": "evening"
           },
@@ -33587,7 +33587,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 54,
             "value": "breakfast"
           }
@@ -33791,7 +33791,7 @@
           },
           {
             "end": 32,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 29,
             "value": "now"
           }
@@ -34229,7 +34229,7 @@
           },
           {
             "end": 50,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 39,
             "value": "02:39:23 pm"
           }
@@ -34265,7 +34265,7 @@
           },
           {
             "end": 31,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 14,
             "value": "19 hours from now"
           },
@@ -34499,7 +34499,7 @@
           },
           {
             "end": 54,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 33,
             "value": "eleven hours from now"
           }
@@ -34541,7 +34541,7 @@
           },
           {
             "end": 57,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 40,
             "value": "1 minute from now"
           }
@@ -34595,7 +34595,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 28,
             "value": "eight pm"
           },
@@ -34667,7 +34667,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 41,
             "value": "ten"
           },
@@ -34853,7 +34853,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 45,
             "value": "one second from now"
           }
@@ -35081,7 +35081,7 @@
           },
           {
             "end": 60,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 40,
             "value": "in seventeen seconds"
           },
@@ -35105,7 +35105,7 @@
           },
           {
             "end": 26,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 23,
             "value": "now"
           },
@@ -35177,7 +35177,7 @@
           },
           {
             "end": 33,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 26,
             "value": "11 p.m."
           },
@@ -35363,7 +35363,7 @@
         "entities": [
           {
             "end": 14,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 5,
             "value": "Afternoon"
           },
@@ -35789,7 +35789,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 58,
             "value": "brunch"
           }
@@ -35831,7 +35831,7 @@
           },
           {
             "end": 63,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 59,
             "value": "meal"
           }
@@ -35891,7 +35891,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 45,
             "value": "five hours from now"
           }
@@ -36053,7 +36053,7 @@
           },
           {
             "end": 85,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 72,
             "value": "in 14 minutes"
           }
@@ -36167,7 +36167,7 @@
           },
           {
             "end": 66,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "eleven o'clock"
           }
@@ -36479,7 +36479,7 @@
           },
           {
             "end": 61,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 58,
             "value": "now"
           }
@@ -36509,7 +36509,7 @@
           },
           {
             "end": 39,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 31,
             "value": "three am"
           }
@@ -36719,7 +36719,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 24,
             "value": "one minute from now"
           }
@@ -36977,7 +36977,7 @@
           },
           {
             "end": 75,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 67,
             "value": "21:41:08"
           }
@@ -37133,7 +37133,7 @@
           },
           {
             "end": 31,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 22,
             "value": "elevenses"
           }
@@ -37361,7 +37361,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 46,
             "value": "8 seconds from now"
           }
@@ -37481,7 +37481,7 @@
           },
           {
             "end": 52,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 49,
             "value": "now"
           }
@@ -37547,7 +37547,7 @@
           },
           {
             "end": 61,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 57,
             "value": "9 am"
           }
@@ -37883,7 +37883,7 @@
           },
           {
             "end": 59,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 51,
             "value": "17:32:30"
           }
@@ -38033,7 +38033,7 @@
           },
           {
             "end": 61,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 49,
             "value": "in two hours"
           }
@@ -38147,7 +38147,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 37,
             "value": "sunset"
           }
@@ -38195,7 +38195,7 @@
           },
           {
             "end": 46,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 40,
             "value": "brunch"
           }
@@ -38477,7 +38477,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 43,
             "value": "2"
           }
@@ -38633,7 +38633,7 @@
           },
           {
             "end": 50,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 39,
             "value": "in 1 second"
           }
@@ -38663,7 +38663,7 @@
           },
           {
             "end": 60,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 57,
             "value": "now"
           }
@@ -38735,7 +38735,7 @@
           },
           {
             "end": 48,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 43,
             "value": "11 am"
           }
@@ -38765,7 +38765,7 @@
           },
           {
             "end": 62,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 57,
             "value": "12 pm"
           }
@@ -38825,7 +38825,7 @@
           },
           {
             "end": 35,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 32,
             "value": "now"
           }
@@ -38987,7 +38987,7 @@
           },
           {
             "end": 61,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 58,
             "value": "tea"
           }
@@ -39059,7 +39059,7 @@
           },
           {
             "end": 67,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "Sunset"
           }
@@ -39287,7 +39287,7 @@
           },
           {
             "end": 60,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 49,
             "value": "twelve P.M."
           }
@@ -39671,7 +39671,7 @@
           },
           {
             "end": 48,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 35,
             "value": "in one minute"
           }
@@ -39863,7 +39863,7 @@
         "entities": [
           {
             "end": 18,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 12,
             "value": "7 A.M."
           },
@@ -40001,7 +40001,7 @@
           },
           {
             "end": 57,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 51,
             "value": "ten PM"
           }
@@ -40259,7 +40259,7 @@
           },
           {
             "end": 62,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 42,
             "value": "three hours from now"
           }
@@ -40289,7 +40289,7 @@
         "entities": [
           {
             "end": 30,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 19,
             "value": "twelve P.M."
           },
@@ -40349,7 +40349,7 @@
           },
           {
             "end": 65,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 54,
             "value": "in 21 hours"
           }
@@ -40367,7 +40367,7 @@
           },
           {
             "end": 48,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 35,
             "value": "in one minute"
           }
@@ -40391,7 +40391,7 @@
           },
           {
             "end": 85,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 72,
             "value": "in 14 minutes"
           }
@@ -40799,7 +40799,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 32,
             "value": "5 am"
           },
@@ -40979,7 +40979,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 46,
             "value": "night"
           },
@@ -41117,7 +41117,7 @@
           },
           {
             "end": 42,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 37,
             "value": "night"
           },
@@ -41507,7 +41507,7 @@
           },
           {
             "end": 44,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 41,
             "value": "now"
           }
@@ -41591,7 +41591,7 @@
           },
           {
             "end": 50,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 39,
             "value": "in 1 second"
           }
@@ -41627,7 +41627,7 @@
           },
           {
             "end": 85,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 76,
             "value": "in 1 hour"
           }
@@ -41801,7 +41801,7 @@
           },
           {
             "end": 43,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 35,
             "value": "seven am"
           },
@@ -42083,7 +42083,7 @@
           },
           {
             "end": 64,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 45,
             "value": "five hours from now"
           }
@@ -42215,7 +42215,7 @@
           },
           {
             "end": 41,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 30,
             "value": "eleven A.M."
           },
@@ -42479,7 +42479,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 29,
             "value": "sunrise"
           },
@@ -42521,7 +42521,7 @@
           },
           {
             "end": 45,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 39,
             "value": "supper"
           }
@@ -42635,7 +42635,7 @@
           },
           {
             "end": 83,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 69,
             "value": "in six minutes"
           }
@@ -42719,7 +42719,7 @@
           },
           {
             "end": 83,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 58,
             "value": "in 1 minute and 8 seconds"
           }
@@ -42863,7 +42863,7 @@
           },
           {
             "end": 55,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 47,
             "value": "00:45 am"
           }
@@ -43061,7 +43061,7 @@
           },
           {
             "end": 33,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 24,
             "value": "afternoon"
           },
@@ -43223,7 +43223,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "tonight"
           },
@@ -43373,7 +43373,7 @@
         "entities": [
           {
             "end": 19,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 13,
             "value": "8 P.M."
           },
@@ -43511,7 +43511,7 @@
           },
           {
             "end": 31,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 14,
             "value": "19 hours from now"
           },
@@ -43601,7 +43601,7 @@
           },
           {
             "end": 52,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 48,
             "value": "meal"
           }
@@ -43775,7 +43775,7 @@
           },
           {
             "end": 74,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 52,
             "value": "three minutes from now"
           }
@@ -44003,7 +44003,7 @@
           },
           {
             "end": 25,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 22,
             "value": "now"
           },
@@ -44249,7 +44249,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 44,
             "value": "sunrise"
           }
@@ -44279,7 +44279,7 @@
           },
           {
             "end": 72,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "02:06:29 am"
           }
@@ -44399,7 +44399,7 @@
           },
           {
             "end": 51,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 43,
             "value": "seven AM"
           },
@@ -44441,7 +44441,7 @@
           },
           {
             "end": 58,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 47,
             "value": "eleven A.M."
           },
@@ -44591,7 +44591,7 @@
           },
           {
             "end": 53,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 42,
             "value": "09:38:42 am"
           }
@@ -44717,7 +44717,7 @@
           },
           {
             "end": 62,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 56,
             "value": "5 A.M."
           }
@@ -44783,7 +44783,7 @@
           },
           {
             "end": 78,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 61,
             "value": "in eighteen hours"
           }
@@ -44801,7 +44801,7 @@
           },
           {
             "end": 38,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 32,
             "value": "2 p.m."
           },
@@ -44981,7 +44981,7 @@
           },
           {
             "end": 65,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 54,
             "value": "in one hour"
           }
@@ -45131,7 +45131,7 @@
           },
           {
             "end": 36,
-            "entity": "timeRange",
+            "entity": "time",
             "start": 33,
             "value": "now"
           },

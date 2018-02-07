@@ -1,0 +1,286 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "will it snow today",
+        "intent": "weather.get_forecast",
+        "entities": []
+      },
+      {
+        "text": "will it rain this weekend",
+        "intent": "weather.get_forecast",
+        "entities": []
+      },
+      {
+        "text": "what is the weather in redmond ?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "redmond",
+            "start": 23,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "text": "do fl residents usually need ice scrapers",
+        "intent": "weather.get_condition",
+        "entities": []
+      },
+      {
+        "text": "how much rain does chambersburg get a year",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "chambersburg",
+            "start": 19,
+            "end": 30
+          }
+        ]
+      },
+      {
+        "text": "show average rainfall for boise",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "boise",
+            "start": 26,
+            "end": 30
+          }
+        ]
+      },
+      {
+        "text": "what to wear in march in california",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "california",
+            "start": 25,
+            "end": 34
+          }
+        ]
+      },
+      {
+        "text": "current weather ?",
+        "intent": "weather.get_condition",
+        "entities": []
+      },
+      {
+        "text": "temperature of delhi in celsius please",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "delhi",
+            "start": 15,
+            "end": 19
+          }
+        ]
+      },
+      {
+        "text": "forecast in celcius",
+        "intent": "weather.get_forecast",
+        "entities": []
+      },
+      {
+        "text": "will it be raining in ranchi",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "ranchi",
+            "start": 22,
+            "end": 27
+          }
+        ]
+      },
+      {
+        "text": "provide me by toronto weather please",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "toronto",
+            "start": 14,
+            "end": 20
+          }
+        ]
+      },
+      {
+        "text": "get the daily temperature greenwood indiana",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "greenwood indiana",
+            "start": 26,
+            "end": 42
+          }
+        ]
+      },
+      {
+        "text": "get florence temperature in september",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "florence",
+            "start": 4,
+            "end": 11
+          }
+        ]
+      },
+      {
+        "text": "what is the rain volume in sonoma county ?",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "sonoma county",
+            "start": 27,
+            "end": 39
+          }
+        ]
+      },
+      {
+        "text": "get the forcast for me",
+        "intent": "weather.get_forecast",
+        "entities": []
+      },
+      {
+        "text": "show me the forecast at alabama",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "alabama",
+            "start": 24,
+            "end": 30
+          }
+        ]
+      },
+      {
+        "text": "soliciting today ' s weather",
+        "intent": "weather.get_forecast",
+        "entities": []
+      },
+      {
+        "text": "was last year about this time as wet as it is now in the south ?",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "south",
+            "start": 57,
+            "end": 61
+          }
+        ]
+      },
+      {
+        "text": "what ' s the weather like in minneapolis",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "minneapolis",
+            "start": 29,
+            "end": 39
+          }
+        ]
+      },
+      {
+        "text": "\" i need to know the temperature at bangor , sme \"",
+        "intent": "weather.get_forecast",
+        "entities": []
+      },
+      {
+        "text": "get for me the weather conditions in sonoma county",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "sonoma county",
+            "start": 37,
+            "end": 49
+          }
+        ]
+      },
+      {
+        "text": "get the weather at saint george utah",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "saint george utah",
+            "start": 19,
+            "end": 35
+          }
+        ]
+      },
+      {
+        "text": "\" tell me perth weather , sclimate & temperature at australia \"",
+        "intent": "weather.get_condition",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "perth",
+            "start": 10,
+            "end": 14
+          }
+        ]
+      },
+      {
+        "text": "what is the weather today at 10 day durham ?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "durham",
+            "start": 36,
+            "end": 41
+          }
+        ]
+      },
+      {
+        "text": "what will the weather be tomorrow in accord new york ?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "accord new york",
+            "start": 37,
+            "end": 51
+          }
+        ]
+      },
+      {
+        "text": "i want to know the temperature at death valley",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "death valley",
+            "start": 34,
+            "end": 45
+          }
+        ]
+      },
+      {
+        "text": "what ' s the weather going to be like in hawaii ?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "hawaii",
+            "start": 41,
+            "end": 46
+          }
+        ]
+      }
+    ]
+  }
+}

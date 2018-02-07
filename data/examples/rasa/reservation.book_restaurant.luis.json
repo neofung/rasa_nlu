@@ -1,0 +1,1218 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "cortana",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.app_name",
+            "value": "cortana",
+            "start": 0,
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "hollywood tavern woodinville reservation",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "woodinville",
+            "start": 17,
+            "end": 27
+          },
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "hollywood tavern",
+            "start": 0,
+            "end": 15
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "reservation",
+            "start": 29,
+            "end": 39
+          }
+        ]
+      },
+      {
+        "text": "horseshoe indiana reservations",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "indiana",
+            "start": 10,
+            "end": 16
+          },
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "horseshoe",
+            "start": 0,
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "best breakfast by arden way please",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "arden way",
+            "start": 18,
+            "end": 26
+          },
+          {
+            "entity": "reservation.book_restaurant.rating",
+            "value": "best",
+            "start": 0,
+            "end": 3
+          },
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "breakfast",
+            "start": 5,
+            "end": 13
+          }
+        ]
+      },
+      {
+        "text": "breakfast all day seattle",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "seattle",
+            "start": 18,
+            "end": 24
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "breakfast all day",
+            "start": 0,
+            "end": 16
+          }
+        ]
+      },
+      {
+        "text": "timbrekitchen reservation",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "timbrekitchen",
+            "start": 0,
+            "end": 12
+          }
+        ]
+      },
+      {
+        "text": "table for four in orlando florida please",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "orlando florida",
+            "start": 18,
+            "end": 32
+          }
+        ]
+      },
+      {
+        "text": "best breakfast issaquah",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "issaquah",
+            "start": 15,
+            "end": 22
+          },
+          {
+            "entity": "reservation.book_restaurant.rating",
+            "value": "best",
+            "start": 0,
+            "end": 3
+          },
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "breakfast",
+            "start": 5,
+            "end": 13
+          }
+        ]
+      },
+      {
+        "text": "breakfast delivery reservations",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "delivery",
+            "start": 10,
+            "end": 17
+          },
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "breakfast",
+            "start": 0,
+            "end": 8
+          }
+        ]
+      },
+      {
+        "text": "i want to book a table for two for a nice romantic restaurant in south korea",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "south korea",
+            "start": 65,
+            "end": 75
+          },
+          {
+            "entity": "reservation.book_restaurant.atmosphere",
+            "value": "nice romantic",
+            "start": 37,
+            "end": 49
+          }
+        ]
+      },
+      {
+        "text": "place reservation for greek tonight please",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "greek",
+            "start": 22,
+            "end": 26
+          }
+        ]
+      },
+      {
+        "text": "make sushi reservations for me and my husband",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "sushi",
+            "start": 5,
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "can we get reservations for ubud mediterranean cuisine",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "mediterranean",
+            "start": 33,
+            "end": 45
+          },
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "ubud",
+            "start": 28,
+            "end": 31
+          }
+        ]
+      },
+      {
+        "text": "make reservations monday night for japanese food in seattle washington",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "japanese",
+            "start": 35,
+            "end": 42
+          },
+          {
+            "entity": "geography",
+            "value": "seattle washington",
+            "start": 52,
+            "end": 69
+          }
+        ]
+      },
+      {
+        "text": "book reservations for a closest schezwan restaurant",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "schezwan",
+            "start": 32,
+            "end": 39
+          },
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "restaurant",
+            "start": 41,
+            "end": 50
+          }
+        ]
+      },
+      {
+        "text": "i need to make reservations at a reasonable sashimi restaurant",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "sashimi",
+            "start": 44,
+            "end": 50
+          }
+        ]
+      },
+      {
+        "text": "reserve a restaurant in seattle for dinner on wednesday",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "restaurant",
+            "start": 10,
+            "end": 19
+          },
+          {
+            "entity": "geography",
+            "value": "seattle",
+            "start": 24,
+            "end": 30
+          },
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "dinner",
+            "start": 36,
+            "end": 41
+          }
+        ]
+      },
+      {
+        "text": "supper at pizza ranch tonight so please call to make reservation",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "supper",
+            "start": 0,
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "make an appointment at sun tan city",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "sun tan city",
+            "start": 23,
+            "end": 34
+          }
+        ]
+      },
+      {
+        "text": "reservations for firebirds",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "firebirds",
+            "start": 17,
+            "end": 25
+          }
+        ]
+      },
+      {
+        "text": "canlis reservations please",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "canlis",
+            "start": 0,
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "make a reservation at the dentist for next week",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "dentist",
+            "start": 26,
+            "end": 32
+          }
+        ]
+      },
+      {
+        "text": "make reservations for steakhouse",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "steakhouse",
+            "start": 22,
+            "end": 31
+          }
+        ]
+      },
+      {
+        "text": "book the best restaurant for me",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "restaurant",
+            "start": 14,
+            "end": 23
+          },
+          {
+            "entity": "reservation.book_restaurant.rating",
+            "value": "best",
+            "start": 9,
+            "end": 12
+          }
+        ]
+      },
+      {
+        "text": "order a delivery lunch from restaurants near pennsylvania avenue",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "pennsylvania avenue",
+            "start": 45,
+            "end": 63
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "delivery",
+            "start": 8,
+            "end": 15
+          },
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "lunch",
+            "start": 17,
+            "end": 21
+          }
+        ]
+      },
+      {
+        "text": "book for me at schaumburg covenant church schaumburg illinois",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "schaumburg illinois",
+            "start": 42,
+            "end": 60
+          },
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "schaumburg covenant church",
+            "start": 15,
+            "end": 40
+          }
+        ]
+      },
+      {
+        "text": "make a reservation at bend oregon exotic restaurants",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "restaurants",
+            "start": 41,
+            "end": 51
+          },
+          {
+            "entity": "geography",
+            "value": "bend oregon",
+            "start": 22,
+            "end": 32
+          },
+          {
+            "entity": "reservation.book_restaurant.atmosphere",
+            "value": "exotic",
+            "start": 34,
+            "end": 39
+          }
+        ]
+      },
+      {
+        "text": "i want italian food for 4 on may 5th",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "italian",
+            "start": 7,
+            "end": 13
+          }
+        ]
+      },
+      {
+        "text": "use seatme to make reservations for 2 on wednesday at 99 park in bellevue",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.app_name",
+            "value": "seatme",
+            "start": 4,
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "book at top san francisco dim sum restaurants for me",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "san francisco",
+            "start": 12,
+            "end": 24
+          },
+          {
+            "entity": "reservation.book_restaurant.rating",
+            "value": "top",
+            "start": 8,
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "i need reservations for lunch at pearl through seatme",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.app_name",
+            "value": "seatme",
+            "start": 47,
+            "end": 52
+          },
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "lunch",
+            "start": 24,
+            "end": 28
+          }
+        ]
+      },
+      {
+        "text": "reserve for me a mexican buffet in my area",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "mexican",
+            "start": 17,
+            "end": 23
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "buffet",
+            "start": 25,
+            "end": 30
+          }
+        ]
+      },
+      {
+        "text": "book a room in a hotel with guardian alarm systems",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "hotel",
+            "start": 17,
+            "end": 21
+          }
+        ]
+      },
+      {
+        "text": "i want to reserve a place for son at awesome middle school",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "middle school",
+            "start": 45,
+            "end": 57
+          },
+          {
+            "entity": "reservation.book_restaurant.rating",
+            "value": "awesome",
+            "start": 37,
+            "end": 43
+          }
+        ]
+      },
+      {
+        "text": "reserve a room for my dog at animal hospital twenty four hours my area",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "animal hospital",
+            "start": 29,
+            "end": 43
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "twenty four hours",
+            "start": 45,
+            "end": 61
+          }
+        ]
+      },
+      {
+        "text": "reserve a hotel with an atm nearby",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "hotel",
+            "start": 10,
+            "end": 14
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "atm",
+            "start": 24,
+            "end": 26
+          }
+        ]
+      },
+      {
+        "text": "find for me a fun restaurant",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "restaurant",
+            "start": 18,
+            "end": 27
+          },
+          {
+            "entity": "reservation.book_restaurant.atmosphere",
+            "value": "fun",
+            "start": 14,
+            "end": 16
+          }
+        ]
+      },
+      {
+        "text": "reserve a room at al boccalino",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "al boccalino",
+            "start": 18,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "text": "order a delivery lunch from nearby restaurants",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "delivery",
+            "start": 8,
+            "end": 15
+          },
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "lunch",
+            "start": 17,
+            "end": 21
+          }
+        ]
+      },
+      {
+        "text": "reserve a seattle late night happy hour",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "seattle",
+            "start": 10,
+            "end": 16
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "happy hour",
+            "start": 29,
+            "end": 38
+          }
+        ]
+      },
+      {
+        "text": "add to calender an event to reserve the flight tickets",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.app_name",
+            "value": "calender",
+            "start": 7,
+            "end": 14
+          }
+        ]
+      },
+      {
+        "text": "i want to reserve a vacation via tripadvisor app",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.app_name",
+            "value": "tripadvisor",
+            "start": 33,
+            "end": 43
+          }
+        ]
+      },
+      {
+        "text": "i want to book at western hotels in amsterdam",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "hotels",
+            "start": 26,
+            "end": 31
+          },
+          {
+            "entity": "reservation.book_restaurant.atmosphere",
+            "value": "western",
+            "start": 18,
+            "end": 24
+          }
+        ]
+      },
+      {
+        "text": "can you help me book a restaurant ?",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "restaurant",
+            "start": 23,
+            "end": 32
+          }
+        ]
+      },
+      {
+        "text": "free wi fi nevada",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "nevada",
+            "start": 11,
+            "end": 16
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "free wi fi",
+            "start": 0,
+            "end": 9
+          }
+        ]
+      },
+      {
+        "text": "table for three in edmonton please",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "geography",
+            "value": "edmonton",
+            "start": 19,
+            "end": 26
+          }
+        ]
+      },
+      {
+        "text": "can you book me a hotel in niagara falls for september fifth",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "hotel",
+            "start": 18,
+            "end": 22
+          },
+          {
+            "entity": "geography",
+            "value": "niagara falls",
+            "start": 27,
+            "end": 39
+          }
+        ]
+      },
+      {
+        "text": "does mashiko take reservations ?",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "mashiko",
+            "start": 5,
+            "end": 11
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "take reservations",
+            "start": 13,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "text": "find local barbecue delivery",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "barbecue",
+            "start": 11,
+            "end": 18
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "delivery",
+            "start": 20,
+            "end": 27
+          }
+        ]
+      },
+      {
+        "text": "find me delivery that is open now",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "delivery",
+            "start": 8,
+            "end": 15
+          }
+        ]
+      },
+      {
+        "text": "food places that deliver near me",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "deliver",
+            "start": 17,
+            "end": 23
+          }
+        ]
+      },
+      {
+        "text": "does mashiko take reservations right now ?",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "take reservations",
+            "start": 13,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "text": "book me a pasta restaurant for sun dec the 13th 12 : 00 pm",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "pasta",
+            "start": 10,
+            "end": 14
+          }
+        ]
+      },
+      {
+        "text": "i want to make a reservation for sushi tell me where i can do that",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "sushi",
+            "start": 33,
+            "end": 37
+          }
+        ]
+      },
+      {
+        "text": "i want to make reservations at an italian restaurant tomorrow night",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "italian",
+            "start": 34,
+            "end": 40
+          }
+        ]
+      },
+      {
+        "text": "sometimes tomorrow in san francisco i ' d like to book a table for four at an italian restaurant",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "italian",
+            "start": 78,
+            "end": 84
+          }
+        ]
+      },
+      {
+        "text": "make dinner reservation at olive garden for 7 pm .",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "dinner",
+            "start": 5,
+            "end": 10
+          }
+        ]
+      },
+      {
+        "text": "call brady medical center",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "brady medical center",
+            "start": 5,
+            "end": 24
+          }
+        ]
+      },
+      {
+        "text": "dial sears optical and book follow up appointment for contacts .",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "sears optical",
+            "start": 5,
+            "end": 17
+          }
+        ]
+      },
+      {
+        "text": "reserve pietro ' s pizza salem for me",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "pietro ' s pizza salem",
+            "start": 8,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "text": "i need a table for 2 at the cove at peninsula golf course",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "the cove at peninsula golf course",
+            "start": 24,
+            "end": 56
+          }
+        ]
+      },
+      {
+        "text": "spaghetti warehouse reservations for 4 tuesday evening",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "spaghetti warehouse",
+            "start": 0,
+            "end": 18
+          }
+        ]
+      },
+      {
+        "text": "the best drugstore matte foundation for oily skin please",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "drugstore",
+            "start": 9,
+            "end": 17
+          },
+          {
+            "entity": "reservation.book_restaurant.rating",
+            "value": "best",
+            "start": 4,
+            "end": 7
+          }
+        ]
+      },
+      {
+        "text": "what about restaurant number two",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "restaurant",
+            "start": 11,
+            "end": 20
+          }
+        ]
+      },
+      {
+        "text": "reserve a room at hitlon paris by skype",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "hitlon paris",
+            "start": 18,
+            "end": 29
+          }
+        ]
+      },
+      {
+        "text": "find sushi takeout near sharon ' s house",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "sushi",
+            "start": 5,
+            "end": 9
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "takeout",
+            "start": 11,
+            "end": 17
+          }
+        ]
+      },
+      {
+        "text": "find gator ' s happy hour menu",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "happy hour",
+            "start": 15,
+            "end": 24
+          }
+        ]
+      },
+      {
+        "text": "does olive gardens have high ratings ?",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.rating",
+            "value": "high",
+            "start": 24,
+            "end": 27
+          }
+        ]
+      },
+      {
+        "text": "does pellican ' s take dinner reservations ?",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "reservations",
+            "start": 30,
+            "end": 41
+          },
+          {
+            "entity": "reservation.book_restaurant.meal_type",
+            "value": "dinner",
+            "start": 23,
+            "end": 28
+          }
+        ]
+      },
+      {
+        "text": "let ' s make an order at bellevue thai delivery",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "thai",
+            "start": 34,
+            "end": 37
+          },
+          {
+            "entity": "geography",
+            "value": "bellevue",
+            "start": 25,
+            "end": 32
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "delivery",
+            "start": 39,
+            "end": 46
+          }
+        ]
+      },
+      {
+        "text": "i need you to reserve me a place tomorrow evening at the chinese restaurant",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.cuisine",
+            "value": "chinese",
+            "start": 57,
+            "end": 63
+          }
+        ]
+      },
+      {
+        "text": "chilis 4 top at 7 tonight please",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "chilis",
+            "start": 0,
+            "end": 5
+          }
+        ]
+      },
+      {
+        "text": "make reservations at chili ' s tomorrow night",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "chili ' s",
+            "start": 21,
+            "end": 29
+          },
+          {
+            "entity": "reservation.book_restaurant.amenities",
+            "value": "reservations",
+            "start": 5,
+            "end": 16
+          }
+        ]
+      },
+      {
+        "text": "make a reservation at matador",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "matador",
+            "start": 22,
+            "end": 28
+          }
+        ]
+      },
+      {
+        "text": "i need reservations for taco world for friday",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_name",
+            "value": "taco world",
+            "start": 24,
+            "end": 33
+          }
+        ]
+      },
+      {
+        "text": "eastside family friendly restaurants",
+        "intent": "none",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "restaurants",
+            "start": 25,
+            "end": 35
+          },
+          {
+            "entity": "geography",
+            "value": "eastside",
+            "start": 0,
+            "end": 7
+          },
+          {
+            "entity": "reservation.book_restaurant.atmosphere",
+            "value": "family friendly",
+            "start": 9,
+            "end": 23
+          }
+        ]
+      },
+      {
+        "text": "i want to reserve nightclub for latinas seattle",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "nightclub for latinas",
+            "start": 18,
+            "end": 38
+          },
+          {
+            "entity": "geography",
+            "value": "seattle",
+            "start": 40,
+            "end": 46
+          }
+        ]
+      },
+      {
+        "text": "searching for my doctors office i need to reserve an appointment for monday",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "doctors office",
+            "start": 17,
+            "end": 30
+          }
+        ]
+      },
+      {
+        "text": "book for me a room in a hotel that uses international alarm system",
+        "intent": "reservation.book_restaurant",
+        "entities": [
+          {
+            "entity": "reservation.book_restaurant.place_type",
+            "value": "hotel",
+            "start": 24,
+            "end": 28
+          }
+        ]
+      }
+    ]
+  }
+}
