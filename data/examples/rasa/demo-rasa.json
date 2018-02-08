@@ -50,6 +50,14 @@
         ]
       }
     ],
+    "phrase_lists":[
+      {
+        "name":"cuisine",
+        "values":["chinese", "mexican", "indian", "asian fusion", "mexican indian fusion", "greek", "mediterranean",
+          "japanese", "schezwan", "sashimi", "italian", "thai", "sushi"],
+        "entities":["reservation.book_restaurant.cuisine"]
+      }
+    ],
     "common_examples": [
       {
         "text": "hey",
