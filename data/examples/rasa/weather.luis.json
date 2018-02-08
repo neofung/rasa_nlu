@@ -19,7 +19,7 @@
             "entity": "geography",
             "value": "redmond",
             "start": 23,
-            "end": 29
+            "end": 30
           }
         ]
       },
@@ -36,7 +36,7 @@
             "entity": "geography",
             "value": "chambersburg",
             "start": 19,
-            "end": 30
+            "end": 31
           }
         ]
       },
@@ -48,7 +48,7 @@
             "entity": "geography",
             "value": "boise",
             "start": 26,
-            "end": 30
+            "end": 31
           }
         ]
       },
@@ -60,7 +60,7 @@
             "entity": "geography",
             "value": "california",
             "start": 25,
-            "end": 34
+            "end": 35
           }
         ]
       },
@@ -77,7 +77,7 @@
             "entity": "geography",
             "value": "delhi",
             "start": 15,
-            "end": 19
+            "end": 20
           }
         ]
       },
@@ -94,7 +94,7 @@
             "entity": "geography",
             "value": "ranchi",
             "start": 22,
-            "end": 27
+            "end": 28
           }
         ]
       },
@@ -106,7 +106,7 @@
             "entity": "geography",
             "value": "toronto",
             "start": 14,
-            "end": 20
+            "end": 21
           }
         ]
       },
@@ -118,7 +118,7 @@
             "entity": "geography",
             "value": "greenwood indiana",
             "start": 26,
-            "end": 42
+            "end": 43
           }
         ]
       },
@@ -130,7 +130,7 @@
             "entity": "geography",
             "value": "florence",
             "start": 4,
-            "end": 11
+            "end": 12
           }
         ]
       },
@@ -142,7 +142,7 @@
             "entity": "geography",
             "value": "sonoma county",
             "start": 27,
-            "end": 39
+            "end": 40
           }
         ]
       },
@@ -159,7 +159,7 @@
             "entity": "geography",
             "value": "alabama",
             "start": 24,
-            "end": 30
+            "end": 31
           }
         ]
       },
@@ -176,7 +176,7 @@
             "entity": "geography",
             "value": "south",
             "start": 57,
-            "end": 61
+            "end": 62
           }
         ]
       },
@@ -188,7 +188,7 @@
             "entity": "geography",
             "value": "minneapolis",
             "start": 29,
-            "end": 39
+            "end": 40
           }
         ]
       },
@@ -205,7 +205,7 @@
             "entity": "geography",
             "value": "sonoma county",
             "start": 37,
-            "end": 49
+            "end": 50
           }
         ]
       },
@@ -217,7 +217,7 @@
             "entity": "geography",
             "value": "saint george utah",
             "start": 19,
-            "end": 35
+            "end": 36
           }
         ]
       },
@@ -229,7 +229,7 @@
             "entity": "geography",
             "value": "perth",
             "start": 10,
-            "end": 14
+            "end": 15
           }
         ]
       },
@@ -241,7 +241,7 @@
             "entity": "geography",
             "value": "durham",
             "start": 36,
-            "end": 41
+            "end": 42
           }
         ]
       },
@@ -253,7 +253,7 @@
             "entity": "geography",
             "value": "accord new york",
             "start": 37,
-            "end": 51
+            "end": 52
           }
         ]
       },
@@ -265,7 +265,7 @@
             "entity": "geography",
             "value": "death valley",
             "start": 34,
-            "end": 45
+            "end": 46
           }
         ]
       },
@@ -277,7 +277,7 @@
             "entity": "geography",
             "value": "hawaii",
             "start": 41,
-            "end": 46
+            "end": 47
           }
         ]
       }
