@@ -3,20 +3,18 @@ and preconfigured templates.
 
 Hence, it imports all of the components. To avoid cycles, no component should
 import this in module scope."""
-from __future__ import unicode_literals
-from __future__ import print_function
-from __future__ import division
 from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+from __future__ import unicode_literals
 
 import typing
-from rasa_nlu import utils
 from typing import Any
-from typing import Dict
-from typing import List
 from typing import Optional
 from typing import Text
 from typing import Type
 
+from rasa_nlu import utils
 from rasa_nlu.classifiers.fasttext_intent_classifier import FastTextIntentClassifier
 from rasa_nlu.classifiers.keyword_intent_classifier import \
     KeywordIntentClassifier
@@ -24,12 +22,12 @@ from rasa_nlu.classifiers.lightgbm_intent_classifier import LightGBMIntentClassi
 from rasa_nlu.classifiers.mitie_intent_classifier import MitieIntentClassifier
 from rasa_nlu.classifiers.sklearn_intent_classifier import \
     SklearnIntentClassifier
+from rasa_nlu.extractors.crf_entity_extractor import CRFEntityExtractor
 from rasa_nlu.extractors.duckling_extractor import DucklingExtractor
 from rasa_nlu.extractors.duckling_http_extractor import DucklingHTTPExtractor
 from rasa_nlu.extractors.entity_synonyms import EntitySynonymMapper
 from rasa_nlu.extractors.mitie_entity_extractor import MitieEntityExtractor
 from rasa_nlu.extractors.spacy_entity_extractor import SpacyEntityExtractor
-from rasa_nlu.extractors.crf_entity_extractor import CRFEntityExtractor
 from rasa_nlu.featurizers.mitie_featurizer import MitieFeaturizer
 from rasa_nlu.featurizers.ngram_featurizer import NGramFeaturizer
 from rasa_nlu.featurizers.regex_featurizer import RegexFeaturizer
@@ -39,6 +37,7 @@ from rasa_nlu.tokenizers.mitie_tokenizer import MitieTokenizer
 from rasa_nlu.tokenizers.spacy_tokenizer import SpacyTokenizer
 from rasa_nlu.tokenizers.whitespace_tokenizer import WhitespaceTokenizer
 from rasa_nlu.utils.mitie_utils import MitieNLP
+from rasa_nlu.utils.phrase_processor import PhraseProcessor
 from rasa_nlu.utils.spacy_utils import SpacyNLP
 
 if typing.TYPE_CHECKING:
@@ -55,7 +54,7 @@ component_classes = [
     SpacyFeaturizer, MitieFeaturizer, NGramFeaturizer, RegexFeaturizer,
     MitieTokenizer, SpacyTokenizer, WhitespaceTokenizer,
     SklearnIntentClassifier, MitieIntentClassifier, KeywordIntentClassifier,
-    LightGBMIntentClassifier, FastTextIntentClassifier
+    LightGBMIntentClassifier, FastTextIntentClassifier, PhraseProcessor
 ]
 
 # Mapping from a components name to its class to allow name based lookup.

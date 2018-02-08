@@ -104,7 +104,6 @@ class SpacyNLP(Component):
             "language": self.language
         }
 
-
     @classmethod
     def load(cls,
              model_dir=None,

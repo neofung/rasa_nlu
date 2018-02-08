@@ -7,12 +7,12 @@ import errno
 import io
 import json
 import os
-
-import six
 from builtins import str
 from typing import List
 from typing import Optional
 from typing import Text
+
+import six
 
 
 def relative_normpath(f, path):
@@ -74,6 +74,13 @@ def recursively_find_files(resource_name):
                          "".format(os.path.abspath(resource_name)))
 
     return found
+
+
+def clean_lazyproperty(self):
+    keys = list(self.__dict__.keys())
+    for key in keys:
+        if key.startswith('_lazy_'):
+            delattr(self, key)
 
 
 def lazyproperty(fn):

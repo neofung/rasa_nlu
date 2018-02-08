@@ -1,5 +1,6 @@
 {
   "pipeline": [
+    "phrase_processor",
     "nlp_spacy",
     "tokenizer_spacy",
     "intent_featurizer_spacy",
