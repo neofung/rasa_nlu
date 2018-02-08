@@ -50,14 +50,6 @@
         ]
       }
     ],
-    "phrase_lists":[
-      {
-        "name":"cuisine",
-        "values":["chinese", "mexican", "indian", "asian fusion", "mexican indian fusion", "greek", "mediterranean",
-          "japanese", "schezwan", "sashimi", "italian", "thai", "sushi"],
-        "entities":["reservation.book_restaurant.cuisine"]
-      }
-    ],
     "common_examples": [
       {
         "text": "hey",
@@ -372,6 +364,21 @@
       {
         "text": "shall we bring breakfast tomorrow?",
         "intent": "none",
+        "entities": []
+      },
+      {
+        "text": "shall we bring umbrellas tomorrow?",
+        "intent": "weather.get_forecast",
+        "entities": []
+      },
+      {
+        "text": "shall I bring umbrella tonight?",
+        "intent": "weather.get_forecast",
+        "entities": []
+      },
+      {
+        "text": "shall I need to bring raincoat tomorrow?",
+        "intent": "weather.get_forecast",
         "entities": []
       }
     ]
