@@ -8,7 +8,7 @@
       },
       {
         "name":"description",
-        "values":["rainy", "wind","foggy","blizzard","windy","overcast","rainy","sunny","snowstorm","humid","hail",
+        "values":["rainy", "wind","foggy","blizzard","windy","overcast","rain","raining","sunny","snowstorm","humid","hail",
           "humidity","cloudy","snowfall","snow","snowstorm","rainfall","cloud","snowy","stormy","sunny"],
         "entities":["weather.generic.condition_description"]
       }

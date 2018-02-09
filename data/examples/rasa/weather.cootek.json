@@ -1,0 +1,155 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "shall we bring raincoat tomorrow?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "tomorrow",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "is it raining in shanghai?",
+        "intent": "weather.get_weather",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "Shanghai",
+            "entity": "geography"
+          },
+          {
+            "start": 6,
+            "end": 13,
+            "value": "raining",
+            "entity": "weather.generic.condition_description"
+          }
+        ]
+      },
+      {
+        "text": "shall we bring umbrellas tomorrow?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "tomorrow",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "shall I bring umbrella tonight?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "tonight",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "shall I need to bring raincoat tomorrow?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "tomorrow",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "What's the weekly weather forecast?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "weekly",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "What's the weather going to be like for the rest of the week?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "start": 40,
+            "end": 60,
+            "value": "the rest of the week",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Weather San Francisco",
+        "intent": "weather.get_weather",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "San Francisco",
+            "entity": "geography"
+          }
+        ]
+      },
+      {
+        "text": "What's the weather like?",
+        "intent": "weather.get_weather",
+        "entities": []
+      },
+      {
+        "text": "What will the weather be like in two days?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "start": 30,
+            "end": 41,
+            "value": "in two days",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Is it going to rain tomorrow?",
+        "intent": "weather.get_forecast",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "rain",
+            "entity": "weather.generic.condition_description"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "tomorrow",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "How's the weather in Tokyo?",
+        "intent": "weather.get_weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Tokyo",
+            "entity": "geography"
+          }
+        ]
+      }
+    ]
+  }
+}
