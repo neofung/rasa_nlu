@@ -22,6 +22,7 @@ from rasa_nlu.classifiers.lightgbm_intent_classifier import LightGBMIntentClassi
 from rasa_nlu.classifiers.mitie_intent_classifier import MitieIntentClassifier
 from rasa_nlu.classifiers.sklearn_intent_classifier import \
     SklearnIntentClassifier
+from rasa_nlu.classifiers.spacy_intent_classifier import SpacyIntentClassifier
 from rasa_nlu.extractors.crf_entity_extractor import CRFEntityExtractor
 from rasa_nlu.extractors.duckling_extractor import DucklingExtractor
 from rasa_nlu.extractors.duckling_http_extractor import DucklingHTTPExtractor
@@ -54,7 +55,8 @@ component_classes = [
     SpacyFeaturizer, MitieFeaturizer, NGramFeaturizer, RegexFeaturizer,
     MitieTokenizer, SpacyTokenizer, WhitespaceTokenizer,
     SklearnIntentClassifier, MitieIntentClassifier, KeywordIntentClassifier,
-    LightGBMIntentClassifier, FastTextIntentClassifier, PhraseProcessor
+    LightGBMIntentClassifier, FastTextIntentClassifier, PhraseProcessor,
+    SpacyIntentClassifier,
 ]
 
 # Mapping from a components name to its class to allow name based lookup.

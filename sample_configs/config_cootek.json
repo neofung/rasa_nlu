@@ -7,7 +7,7 @@
     "intent_entity_featurizer_regex",
     "ner_crf",
     "ner_synonyms",
-    "intent_classifier_fasttext",
+    "intent_classifier_spacy",
     "ner_duckling"
   ],
   "path" : "../projects",
@@ -51,5 +51,10 @@
 
   "intent_classifier_lightgbm": {
     "save_intermediate": true
+  },
+  "intent_classifier_spacy": {
+    "epochs": 20,
+    "batch_size": 64,
+    "dropout": 0.25
   }
 }
