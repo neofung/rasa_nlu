@@ -10,6 +10,7 @@ from typing import Dict
 from typing import List
 from typing import Text
 
+from spacy.pipeline import EntityRecognizer
 from spacy.util import minibatch
 from tqdm import tqdm
 
@@ -29,8 +30,24 @@ class SpacyEntityExtractor(EntityExtractor):
 
     requires = ["spacy_doc", "spacy_nlp"]
 
-    def __init__(self):
-        self.spacy_nlp = None
+    def __init__(self, ner=None):
+        self.ner = ner
+
+    @classmethod
+    def load(cls, model_dir=None, model_metadata=None, cached_component=None, **kwargs):
+        spacy_nlp = kwargs['spacy_nlp']
+        path = model_dir + '/ner.model'
+        ner = EntityRecognizer(spacy_nlp.vocab).from_disk(path, vocab=False)
+
+        extractor = SpacyEntityExtractor(ner)
+
+        spacy_nlp.replace_pipe('ner', extractor.ner)
+
+        return extractor
+
+    def persist(self, model_dir):
+        path = model_dir + '/ner.model'
+        self.ner.to_disk(path, vocab=False)
 
     def train(self, training_data, config, **kwargs):
         # type: (TrainingData, RasaNLUConfig, **Any) -> Dict[Text, Any]
@@ -52,6 +69,7 @@ class SpacyEntityExtractor(EntityExtractor):
         ner.cfg['rasa_updated'] = True
         spacy_nlp.replace_pipe('ner', ner)
         self.__train_ner(config.get('ner_spacy'), spacy_nlp, training_ner_data)
+        self.ner = ner
 
         return {'spacy_nlp': spacy_nlp}
 

@@ -8,6 +8,5 @@
     "intent_classifier_sklearn"
   ],
   "path": "./projects",
-  "spacy_model_name": "spacy_model",
   "data": "./data/examples/rasa/demo-rasa.json"
 }
