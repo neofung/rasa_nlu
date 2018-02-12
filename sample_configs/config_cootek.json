@@ -5,13 +5,13 @@
     "tokenizer_spacy",
     "intent_featurizer_spacy",
     "intent_entity_featurizer_regex",
-    "ner_crf",
+    "ner_spacy",
     "ner_synonyms",
     "intent_classifier_spacy",
     "ner_duckling"
   ],
-  "path" : "../projects",
-  "data" : "../data/examples/rasa/",
+  "path": "./projects",
+  "data": "./data/examples/rasa/",
   "project": null,
   "fixed_model_name": null,
   "language": "en",
@@ -42,6 +42,10 @@
     "max_iterations": 50,
     "L1_c": 1,
     "L2_c": 1e-3
+  },
+  "ner_spacy": {
+    "epochs": 20,
+    "batch_size": 40
   },
 
   "intent_classifier_sklearn": {
