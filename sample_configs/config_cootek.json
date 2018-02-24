@@ -46,7 +46,7 @@
 
   "ner_spacy": {
     "epochs": 20,
-    "batch_size": 64,
+    "batch_size": 128,
     "gpu_device": -1
   },
 
@@ -60,7 +60,7 @@
   },
   "intent_classifier_spacy": {
     "epochs": 20,
-    "batch_size": 64,
+    "batch_size": 128,
     "dropout": 0.25,
     "gpu_device": -1
   }

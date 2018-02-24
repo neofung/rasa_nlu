@@ -1,7 +1,7 @@
 import random
 
-from spacy.util import minibatch, compounding
 from spacy.pipeline import TextCategorizer
+from spacy.util import minibatch
 from tqdm import tqdm
 
 from rasa_nlu.components import Component
@@ -107,7 +107,7 @@ class SpacyIntentClassifier(Component):
 
         classifier = SpacyIntentClassifier(textcat)
 
-        spacy_nlp.add_pipe(classifier.classifier, last=True)
+        spacy_nlp.add_pipe(classifier.classifier, after='tagger')
 
         return classifier
 

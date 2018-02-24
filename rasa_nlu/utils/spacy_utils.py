@@ -13,6 +13,7 @@ from typing import Text
 
 from rasa_nlu.components import Component
 from rasa_nlu.config import RasaNLUConfig
+from rasa_nlu.extractors.spacy_entity_extractor import DISABLE_ORIGINAL_SPACY_NER
 from rasa_nlu.training_data import Message
 from rasa_nlu.training_data import TrainingData
 
@@ -78,7 +79,11 @@ class SpacyNLP(Component):
     def process(self, message, **kwargs):
         # type: (Message, **Any) -> None
 
-        message.set("spacy_doc", self.nlp(message.text.lower()))
+        if DISABLE_ORIGINAL_SPACY_NER in kwargs and kwargs[DISABLE_ORIGINAL_SPACY_NER]:
+            with self.nlp.disable_pipes('ner'):
+                message.set("spacy_doc", self.nlp(message.text.lower()))
+        else:
+            message.set("spacy_doc", self.nlp(message.text.lower()))
 
     def persist(self, model_dir):
         # type: (Text) -> Dict[Text, Any]
