@@ -1,6 +1,7 @@
 import random
 
 from spacy.util import minibatch, compounding
+from spacy.pipeline import TextCategorizer
 from tqdm import tqdm
 
 from rasa_nlu.components import Component
@@ -14,8 +15,9 @@ class SpacyIntentClassifier(Component):
 
     requires = ['spacy_nlp']
 
-    def __init__(self):
-        pass
+    def __init__(self, classifier=None):
+        # type: (TextCategorizer) -> None
+        self.classifier = classifier
 
     def train(self, training_data, config, **kwargs):
         # type: (TrainingData, RasaNLUConfig, **Any) -> Dict[Text, Any]
@@ -26,6 +28,7 @@ class SpacyIntentClassifier(Component):
         batch_size = spacy_config.get('batch_size', 32)
         epochs = spacy_config.get('epochs', 10)
         dropout = spacy_config.get('dropout', 0.25)
+        gpu_device = spacy_config.get('gpu_device', -1)
 
         def foo(intent):
             cats = {}
@@ -55,7 +58,7 @@ class SpacyIntentClassifier(Component):
         other_pipes = [pipe for pipe in spacy_nlp.pipe_names if pipe != classifier.name]
 
         with spacy_nlp.disable_pipes(*other_pipes):  # only train textcat
-            optimizer = spacy_nlp.begin_training()
+            optimizer = spacy_nlp.begin_training(device=gpu_device)
             for it in range(epochs):
                 losses = {}
                 random.shuffle(train_data)
@@ -68,6 +71,7 @@ class SpacyIntentClassifier(Component):
                                      losses=losses)
                     progress.set_description_str('epoch %d/%d, loss: %s' % (it + 1, epochs, str(losses)))
 
+        self.classifier = classifier
         return {'spacy_nlp': spacy_nlp}
 
     @classmethod
@@ -94,3 +98,19 @@ class SpacyIntentClassifier(Component):
 
         message.set("intent", intent, add_to_output=True)
         message.set("intent_ranking", intent_ranking, add_to_output=True)
+
+    @classmethod
+    def load(cls, model_dir=None, model_metadata=None, cached_component=None, **kwargs):
+        spacy_nlp = kwargs['spacy_nlp']
+        path = model_dir + '/intent_classifier.model'
+        textcat = TextCategorizer(spacy_nlp.vocab).from_disk(path, vocab=False)
+
+        classifier = SpacyIntentClassifier(textcat)
+
+        spacy_nlp.add_pipe(classifier.classifier, last=True)
+
+        return classifier
+
+    def persist(self, model_dir):
+        path = model_dir + '/intent_classifier.model'
+        self.classifier.to_disk(path, vocab=False)

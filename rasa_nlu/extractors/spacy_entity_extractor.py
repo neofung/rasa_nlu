@@ -79,21 +79,23 @@ class SpacyEntityExtractor(EntityExtractor):
             logger.warning('ner_config is None')
             epochs = 16
             batch_size = 10
+            gpu_device = -1
         else:
             epochs = ner_config.get('epochs', 16)
             batch_size = ner_config.get('batch_size', 10)
+            gpu_device = ner_config.get('gpu_device', -1)
 
         # get names of other pipes to disable them during training
         other_pipes = [pipe for pipe in nlp.pipe_names if pipe != 'ner']
         with nlp.disable_pipes(*other_pipes):  # only train NER
             logger.info('start training ner')
-            optimizer = nlp.begin_training()
+            optimizer = nlp.begin_training(device=gpu_device)
             for it in range(epochs):
                 random.shuffle(training_ner_data)
                 losses = {}
 
                 batches = minibatch(training_ner_data, size=batch_size)
-                progress = tqdm(batches, total=len(training_ner_data) / batch_size, miniters=10)
+                progress = tqdm(batches, total=len(training_ner_data) / batch_size)
                 for batch in progress:
                     texts, annotations = zip(*batch)
                     nlp.update(texts, annotations, sgd=optimizer, drop=0.35,
